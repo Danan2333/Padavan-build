@@ -74,7 +74,9 @@ jobs:
         ##广告管理##
         echo "CONFIG_FIRMWARE_INCLUDE_ADBYBY=y" >> .config #adbyby plus+
         echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=y" >> .config #adg DNS去AD
-
+        
+        ##aria2下载##
+        echo "CONFIG_FIRMWARE_INCLUDE_ARIA2=y" >> .config #aria2
 
         ##内网穿透服务##
         echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
